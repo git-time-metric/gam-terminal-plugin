@@ -2,7 +2,7 @@
 
 export GTM_STATUS=""
 export GTM_NEXT_UPDATE=0
-export GTM_LAST_DIR="$(PWD)"
+export GTM_LAST_DIR="${PWD}"
 
 function gtm_record_terminal() {
   let epoch=$((`date +%s`))
