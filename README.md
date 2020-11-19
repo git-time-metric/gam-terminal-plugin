@@ -12,7 +12,14 @@ Git Time Metrics (GTM) is a tool to automatically track time spent reading and w
 Installing GTM is a two step process.  First, it's recommended you install the GTM executable that the plug-in integrates with and then install the Terminal GTM plug-in.  Please submit an issue if you have any problems and/or questions.
 
 1. Follow the [Getting Started](https://github.com/git-time-metric/gtm/blob/master/README.md) section to install the GTM executable for your operating system.
-2. To install the plugin download the shell script and `source gtm-plugin.sh` from either your .bashrc or .zshrc file. Also make sure the shell script is executable `chmod +x gtm-plugin.sh`.
+
+#### Bash/Zsh
+To install the plugin download the shell script and `source gtm-plugin.sh` from either your .bashrc or .zshrc file. Also make sure the shell script is executable `chmod +x gtm-plugin.sh`.
+
+#### Fish
+To install the plugin download the fish script and `source gtm-plugin.fish` from
+`~/.config/fish/config.fish`
+
 
 **Note** - to enable time tracking for a Git repository, you need to initialize it with `gtm init` otherwise it will be ignored by GTM. This is done via the command line.
 ```
